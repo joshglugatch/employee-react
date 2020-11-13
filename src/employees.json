@@ -1,10 +1,6 @@
 [
     {
-        "name": {
-            "title": "Mr",
-            "first": "Enio",
-            "last": "Vieira"
-        },
+        "name":"Enio Vieira",
         "email": "enio.vieira@example.com",
         "dob": {
             "date": "1992-09-21T21:58:13.193Z",
@@ -18,11 +14,7 @@
         }
     },
     {
-        "name": {
-            "title": "Miss",
-            "first": "Maja",
-            "last": "Jensen"
-        },
+        "name": "Maja Jensen",
         "email": "maja.jensen@example.com",
         "dob": {
             "date": "1985-09-02T07:24:59.526Z",
@@ -36,11 +28,7 @@
         }
     },
     {
-        "name": {
-            "title": "Ms",
-            "first": "Oya",
-            "last": "Bolatlı"
-        },
+        "name": "Oya Bolatlı",
         "email": "oya.bolatli@example.com",
         "dob": {
             "date": "1998-02-09T10:20:58.896Z",
@@ -54,11 +42,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Jaanzeb",
-            "last": "Raja"
-        },
+        "name":"Jaanzeb Raja",
         "email": "rd.rdyy@example.com",
         "dob": {
             "date": "1962-09-13T13:02:06.874Z",
@@ -72,11 +56,7 @@
         }
     },
     {
-        "name": {
-            "title": "Ms",
-            "first": "Olivia",
-            "last": "Chen"
-        },
+        "name":"Olivia Chen",
         "email": "olivia.chen@example.com",
         "dob": {
             "date": "1956-06-01T13:57:55.529Z",
@@ -90,11 +70,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Leo",
-            "last": "Jokinen"
-        },
+        "name":"Leo Jokinen",
         "email": "leo.jokinen@example.com",
         "dob": {
             "date": "1961-07-08T13:16:42.851Z",
@@ -108,11 +84,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mademoiselle",
-            "first": "Caroline",
-            "last": "Blanchard"
-        },
+        "name":"Caroline Blanchard",
         "email": "caroline.blanchard@example.com",
         "dob": {
             "date": "1950-07-22T20:48:50.069Z",
@@ -126,11 +98,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Benjamin",
-            "last": "Andersen"
-        },
+        "name":"Benjamin Andersen",
         "email": "benjamin.andersen@example.com",
         "dob": {
             "date": "1994-02-16T20:54:35.107Z",
@@ -144,11 +112,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Blake",
-            "last": "Wong"
-        },
+        "name":"Blake Wong",
         "email": "blake.wong@example.com",
         "dob": {
             "date": "1991-08-23T13:58:28.220Z",
@@ -162,11 +126,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Nicholas",
-            "last": "May"
-        },
+        "name": "Nicholas may",
         "email": "nicholas.may@example.com",
         "dob": {
             "date": "1959-11-20T08:45:56.601Z",
@@ -180,11 +140,7 @@
         }
     },
     {
-        "name": {
-            "title": "Miss",
-            "first": "Holi",
-            "last": "Haughy"
-        },
+        "name": "Holi Haughy",
         "email": "hsty.hmdy@example.com",
         "dob": {
             "date": "1957-04-03T01:22:21.026Z",
@@ -198,11 +154,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mrs",
-            "first": "Ariovanda",
-            "last": "da Paz"
-        },
+        "name":"Ariovanda da Paz",
         "email": "ariovanda.dapaz@example.com",
         "dob": {
             "date": "1996-11-02T11:13:50.782Z",
@@ -216,11 +168,7 @@
         }
     },
     {
-        "name": {
-            "title": "Ms",
-            "first": "Emely",
-            "last": "Haave"
-        },
+        "name": "Emely Haave",
         "email": "emely.haave@example.com",
         "dob": {
             "date": "1971-07-25T02:29:41.164Z",
@@ -234,11 +182,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Izzet",
-            "last": "Van den Doel"
-        },
+        "name":"Izzet Van den Doel",
         "email": "izzet.vandendoel@example.com",
         "dob": {
             "date": "1957-02-17T06:09:32.168Z",
@@ -252,11 +196,7 @@
         }
     },
     {
-        "name": {
-            "title": "Ms",
-            "first": "Alisa",
-            "last": "Ollila"
-        },
+        "name":"Alisa Ollila",
         "email": "alisa.ollila@example.com",
         "dob": {
             "date": "1956-09-19T02:30:16.801Z",
@@ -270,11 +210,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Aleksi",
-            "last": "Kumpula"
-        },
+        "name":"Aleksi Kumpula",
         "email": "aleksi.kumpula@example.com",
         "dob": {
             "date": "1996-11-13T02:02:39.909Z",
@@ -288,11 +224,7 @@
         }
     },
     {
-        "name": {
-            "title": "Miss",
-            "first": "Amanda",
-            "last": "Byrd"
-        },
+        "name": "Amanda Byrd",
         "email": "amanda.byrd@example.com",
         "dob": {
             "date": "1978-06-27T06:53:30.587Z",
@@ -306,11 +238,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mrs",
-            "first": "Roselei",
-            "last": "da Mata"
-        },
+        "name":"Roselei da Mata",
         "email": "roselei.damata@example.com",
         "dob": {
             "date": "1981-01-01T14:43:35.047Z",
@@ -324,11 +252,7 @@
         }
     },
     {
-        "name": {
-            "title": "Miss",
-            "first": "Eugenia",
-            "last": "Perez"
-        },
+        "name": "Eugenia Perez",
         "email": "eugenia.perez@example.com",
         "dob": {
             "date": "1961-08-03T19:06:02.617Z",
@@ -342,11 +266,7 @@
         }
     },
     {
-        "name": {
-            "title": "Mr",
-            "first": "Ludovino",
-            "last": "Vieira"
-        },
+        "name":"Ludovino Vieira",
         "email": "ludovino.vieira@example.com",
         "dob": {
             "date": "1946-08-20T21:02:06.083Z",
