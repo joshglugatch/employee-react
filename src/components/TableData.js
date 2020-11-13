@@ -3,18 +3,23 @@ import EmployeeContext from "../utils/EmployeeContext"
 
 
 const TableData = () => {
-    const {name,email,picture,phone,age} = useContext(EmployeeContext);
+    const {employeeData} = useContext(EmployeeContext);
+    console.log(employeeData)
+   
+
 
     return(
     <tbody>
-
-        <tr>
-          <th scope="row"><img src={picture} alt="nameHere"/></th>
-          <td>{name}</td>
-          <td>{email}</td>
-          <td>{phone}</td>
-          <td>{age}</td>
+        {employeeData.map(employee=>(
+          <tr>
+          <th scope="row"><img src={employee.picture.thumbnail} alt="nameHere"/></th>
+          <td>{employee.name.first +" "+ employee.name.last}</td>
+          <td>{employee.email}</td>
+          <td>{employee.phone}</td>
+          <td>{employee.dob.age}</td>
         </tr>
+        ))}
+        
         
     </tbody>
     
