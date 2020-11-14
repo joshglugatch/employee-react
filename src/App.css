@@ -36,3 +36,9 @@
     margin-left: 20px;
 }
 
+.bi:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px 1px whitesmoke;
+    
+}

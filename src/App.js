@@ -48,8 +48,6 @@ useEffect(()=>{
     setEmployeeData(Employees.filter(item=>item.name.toLowerCase().includes(search.toLowerCase())))
   }
 
-console.log(search)
-
 },[search])
 
   
