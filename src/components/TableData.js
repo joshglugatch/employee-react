@@ -3,6 +3,7 @@ import EmployeeContext from "../utils/EmployeeContext"
 
 
 const TableData = () => {
+  //pass on employee data
     const {employeeData} = useContext(EmployeeContext);
    
 
@@ -11,7 +12,7 @@ const TableData = () => {
     <tbody>
         {employeeData.map(employee=>(
           <tr>
-          <th scope="row"><img src={employee.picture.thumbnail} alt="nameHere"/></th>
+          <th scope="row"><img src={employee.picture.thumbnail} alt={employee.name}/></th>
           <td>{employee.name}</td>
           <td>{employee.email}</td>
           <td>{employee.phone}</td>

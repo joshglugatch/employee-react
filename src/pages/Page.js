@@ -4,7 +4,7 @@ import TableContainer from "../components/TableContainer";
 import TableData from "../components/TableData";
 import TableHead from "../components/TableHead";
 
-
+//structure of page
 
 function Page() {
   return (

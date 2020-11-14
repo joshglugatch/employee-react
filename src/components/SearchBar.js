@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import SearchContext from "../utils/SearchContext"
 
 const SearchBar = () => {
+  // pass on handleSearch function
     const {handleSearch} = useContext(SearchContext)
   return (
   <div className="searchDiv">
