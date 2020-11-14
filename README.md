@@ -3,6 +3,10 @@
 <br>
 An employee data system built with React. Managers or employees can find non-sensitive data of their employees by name and sort employees alphabetically.
 
+<br>
+
+https://joshglugatch.github.io/employee-react/
+
  <br>
 
 ![demogif](./public/employeereactdemo.gif)
@@ -31,7 +35,7 @@ Employee list can be sorted alphabetically or can be searched by employee name.
 <br>
 
 ## Code Example
-The application is tracking the states of the employee data being filtered and sent to the webpage, and the user's search.
+Using React Hooks, the application is tracking the states of the employee data being filtered and sent to the webpage, and the user's search.
 
 <br>  
 
@@ -94,7 +98,7 @@ Components recieve data from the App.js by using providers to carry values for d
 
 
 # Deployed Link:
-https://joshglugatch.github.io/Team-Avatar-Clicky-Game/
+https://joshglugatch.github.io/employee-react/
 
 # Repository Link:
 https://github.com/joshglugatch/employee-react
