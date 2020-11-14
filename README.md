@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Employee Tracker with React.js
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.mit.edu/~amini/LICENSE.md)
+<br>
+An employee data system built with React. Managers or employees can find non-sensitive data of their employees by name and sort employees alphabetically.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <br>
 
-## Available Scripts
+![demogif](./public/employeereactdemo.gif)
 
-In the project directory, you can run:
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ ## Built With
+* React.js
+* HTML
+* CSS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Installation
+To install dependencies run
+```
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+Employee list can be sorted alphabetically or can be searched by employee name.
+<br>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Code Example
+The application is tracking the states of the employee data being filtered and sent to the webpage, and the user's search.
 
-### `npm run eject`
+<br>  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```javaScript
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+//create states for employee array and search value
+  const [employeeData, setEmployeeData] = useState([])
+  const [search, setSearch] = useState("")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br>
+<br>
 
-## Learn More
+The data is filtered and re-rendered with each change to the "search" state, filtering data live to search input rather than on submit.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```javaScript
 
-### Code Splitting
+ //Grab search value on change
+  const  handleSearch = (e)=>{
+    setSearch(e.target.value)
+  }
+  
+  //render data on each change of search
+useEffect(()=>{
+  if(search === ""){
+    setEmployeeData(Employees)
+  }else{
+    setEmployeeData(Employees.filter(item=>item.name.toLowerCase().includes(search.toLowerCase())))
+  }
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+},[search])
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
 
-### Making a Progressive Web App
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Components recieve data from the App.js by using providers to carry values for data, and functions for onClick(sorting alphabetically) and onChange(search input).
 
-### Advanced Configuration
+<br>  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```javaScript
 
-### Deployment
+ //provide values for search/sort functions and employee data to page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  return (
+    <SearchContext.Provider value={{search, handleSearch, handleSortA, handleSortZ}}>
+      <EmployeeContext.Provider value={{employeeData}}>
+        <Page />
+      </EmployeeContext.Provider>
+    </SearchContext.Provider>
+  );
+```
 
-### `npm run build` fails to minify
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Deployed Link:
+https://joshglugatch.github.io/Team-Avatar-Clicky-Game/
+
+# Repository Link:
+https://github.com/joshglugatch/employee-react
+
+<br>
+
+### Author:
+Josh Glugatch  
+
+Porfolio Link: https://joshglugatch.herokuapp.com/
+
+[![GitHub](https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/joshglugatch)
+<br>
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/joshua-glugatch)
+
+
+
