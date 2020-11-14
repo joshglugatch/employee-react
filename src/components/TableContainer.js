@@ -7,6 +7,7 @@ import TableHead from "./TableHead";
 const TableContainer = () => {
   return (
   <div className="container">
+    <p className="info">Search Employees or Sort Alphabetically by Name</p>
     <SearchBar/>
     <TableHead/>
   </div>
